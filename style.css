@@ -1,0 +1,78 @@
+.main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.main div{
+  box-sizing: border-box;
+}
+.t1,
+.t2,
+.t3,
+.t4,
+.t5,
+.t6,
+.t7,
+.t8,
+.t9{
+  width:100%;
+  box-shadow: 1px 3px 3px 3px #dfd;
+  padding:1%;
+  border-radius: 10px;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  h4{
+    text-align: center;
+    color:cyan;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  h4{
+    text-align: center;
+    color:cyan;
+  }
+  .t1,
+  .t6{
+    width:100%;
+  }
+  .t2,
+  .t3,
+  .t4,
+  .t5{
+    width:50%;
+  }
+  .t7,
+  .t8,
+  .t9{
+    width:33.3%;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1600px){
+  h4{
+    text-align: center;
+    color:cyan;
+
+  }
+  .t1{
+    width:60%;
+  }
+  .t2{
+    width:30%;
+  }
+  .t3{
+    width:33.3%;
+  }
+  .t4{
+    width:30%;
+  }
+  .t5{
+    width:30%;
+  }
+.t6,
+.t7,
+.t8,
+.t9{
+  width:45%;
+}
+}
